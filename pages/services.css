@@ -1,0 +1,50 @@
+body {
+  background: url("../images/portfolio.jpg") no-repeat center/cover fixed;
+}
+header {
+  border-bottom: 1px solid #3c4043;
+}
+.services-page-title {
+  text-align: center;
+}
+.services-page-center {
+  margin: 30px 70px;
+}
+.services-title {
+  text-align: center;
+  color: white;
+}
+.services-show {
+  padding: 50px;
+  text-align: center;
+  width: 30vw;
+  height: 170px;
+  margin: 50px;
+  background-color: rgba(234, 21, 56, 0.8);
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 100px;
+  flex-basis: calc(33.33% - 100px);
+}
+.services-show:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+.services-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.service-top {
+  font-weight: bold;
+  font-size: 2em;
+}
+.services-show p,
+.services-show a {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.services-span {
+  color: #ea1538;
+}

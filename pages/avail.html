@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WinDev | Avail</title>
+    <link rel="stylesheet" href="avail.css" />
+    <link rel="stylesheet" href="../navbar.css" />
+  </head>
+  <body>
+    <header>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li>
+              <a class="simple-link" href="services.html">Services</a>
+            </li>
+            <li>
+              <a class="simple-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="simple-link" href="team.html">WinDev Team</a>
+            </li>
+            <li>
+              <a class="simple-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="home" href="../index.html"
+        ><h1 class="logo">Win<span class="dev">Dev</span></h1></a
+      >
+      <a class="avail" href="avail.html">Avail Now</a>
+    </header>
+    <div class="avail-page-center white">
+      <h1 class="logo title">Avail a Service</h1>
+      <form action="/action_page.php" method="get">
+        <label class="required">Name</label>
+        <input type="text" placeholder="First - Middle - Last" required />
+        <label class="required">Email</label>
+        <input type="email" placeholder="example@example.com" required />
+        <label class="required">Contact Number</label>
+        <input
+          type="number"
+          min="12"
+          placeholder="Country Code + number: XX-XXX-XXX-XXXX"
+          required
+        />
+        <label class="required">Type of Service</label>
+        <select required>
+          <option>-Select-</option>
+          <option>Website</option>
+          <option>Mobile App</option>
+          <option>Game</option>
+        </select>
+        <label class="required">Level of Project</label>
+        <select required>
+          <option>-Select-</option>
+          <option>Basic</option>
+          <option>MId-level</option>
+          <option>High-level</option>
+        </select>
+        <label class="required">Project Description</label>
+        <textarea
+          rows="4"
+          cols="50"
+          placeholder="Enter your project's description here."
+          required
+        ></textarea>
+        <label>Notes</label>
+        <textarea rows="4" cols="50" placeholder="Enter notes here."></textarea
+        ><br />
+        <input type="submit" value="Submit" class="button" />
+      </form>
+    </div>
+    <div class="disclaimer">
+      <p>
+        DISCLAIMER: The content in this website is made up and is only made to
+        follow the theme of the instructions<br />
+        for an academic requirement "My Future Business".
+      </p>
+    </div>
+  </body>
+</html>

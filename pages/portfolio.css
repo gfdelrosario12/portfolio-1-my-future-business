@@ -1,0 +1,71 @@
+body {
+  background: url("../images/portfolio.jpg") no-repeat center/cover fixed;
+}
+.portfolio-page-center {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.center {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.portfolio-page-center div {
+  background-color: rgba(234, 21, 56, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 28vh;
+  margin: 5px 25px;
+  max-width: 400px;
+}
+
+.portfolio-page-center div:hover,
+footer:hover,
+footer a:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+.portfolio-title {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.portfolio-page-center h1,
+.portfolio-page-center p,
+footer {
+  color: #ffffff;
+}
+.portfolio-page-center p,
+footer p {
+  margin-top: 10px;
+  font-size: 2vh;
+}
+footer {
+  background-color: rgba(234, 21, 56, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 28vh;
+  margin: 5px 25%;
+  max-width: 1000px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.portfolio-page-center h1,
+footer h1 {
+  font-size: 1.5em;
+}
+.portfolio-page-center p,
+footer p {
+  font-size: 1em;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+body {
+  background: url("./images/main.jpg") no-repeat center/cover fixed;
+}
+
+.technology,
+.dev {
+  color: #ea1538;
+}
+.center-screen {
+  margin-top: 10%;
+  margin-left: 3%;
+  color: white;
+}
+.main-text {
+  font-size: 5em;
+}
+.sub-text {
+  font-size: 1.5em;
+}

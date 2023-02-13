@@ -1,0 +1,26 @@
+body {
+  background: url("../images/contact.jpg") no-repeat center/cover fixed;
+}
+h1,
+a,
+a:visited {
+  color: white;
+}
+.contact-page-center {
+  background-color: rgba(234, 21, 56, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  width: 45vw;
+  height: 45vh;
+  margin: 5px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 1em;
+  text-align: center;
+}
+.contact-page-center:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
