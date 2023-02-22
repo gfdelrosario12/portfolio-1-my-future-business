@@ -23,7 +23,7 @@ header {
   background-color: rgba(234, 21, 56, 0.8);
   border-radius: 10px;
   min-width: 200px;
-  min-height: 100px;
+  min-height: 200px;
   flex-basis: calc(33.33% - 100px);
 }
 .services-show:hover {
@@ -47,4 +47,9 @@ header {
 }
 .services-span {
   color: #ea1538;
+}
+.price {
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: bold;
 }

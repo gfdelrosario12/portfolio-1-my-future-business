@@ -1,0 +1,54 @@
+body {
+  background: url("../images/portfolio.jpg") no-repeat center/cover fixed;
+}
+
+.partners-title {
+  text-align: center;
+  color: white;
+  margin: 20px 0px;
+}
+span {
+  color: #ea1538e6;
+}
+
+.partners-page {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px 80px;
+  justify-content: center;
+}
+
+.partners-page div {
+  background-color: rgba(234, 21, 56, 0.9);
+  padding: 50px;
+  border-radius: 10px;
+  width: 15vw;
+  height: 23vh;
+  margin: 5px 25px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.partners-page div:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+.partners-page h1,
+.partners-page p {
+  color: #ffffff;
+  text-align: center;
+}
+.partners-page p {
+  margin-top: 10px;
+  font-size: 2vh;
+}
+.partners-page h1 {
+  font-size: 1.5em;
+}
+img {
+  margin: auto;
+  height: 8vh;
+  width: 9vw;
+}

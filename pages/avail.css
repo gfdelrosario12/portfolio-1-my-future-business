@@ -98,6 +98,7 @@ select option {
   transition: 0.4s;
   display: block;
   margin: 20px auto 20px;
+  border: 1px solid white;
 }
 
 .button:hover {

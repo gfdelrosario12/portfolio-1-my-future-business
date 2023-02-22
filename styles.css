@@ -14,11 +14,8 @@
 }
 
 body {
+  background: url("images/main.jpg") no-repeat center/cover fixed;
   -ms-overflow-style: none;
-}
-
-body {
-  background: url("./images/main.jpg") no-repeat center/cover fixed;
 }
 
 .technology,
@@ -29,6 +26,7 @@ body {
   margin-top: 10%;
   margin-left: 3%;
   color: white;
+  margin-bottom: 11.5%;
 }
 .main-text {
   font-size: 5em;

@@ -10,8 +10,10 @@ a:visited {
   background-color: rgba(234, 21, 56, 0.8);
   padding: 30px;
   border-radius: 10px;
-  width: 45vw;
-  height: 45vh;
+  width: 50vw;
+  height: 60vh;
+  min-width: 30vw;
+  min-height: 60vh;
   margin: 5px;
   margin-top: 5%;
   margin-left: 25%;
@@ -20,6 +22,9 @@ h1 {
   margin-top: 30px;
   font-size: 1em;
   text-align: center;
+}
+.underline {
+  text-decoration: underline;
 }
 .contact-page-center:hover {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);

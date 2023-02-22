@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Rubik:wght@500&display=swap");
+footer {
+  background-color: #0d0e10;
+  color: #fff;
+  padding: 50px 30px;
+  margin-top: 30px;
+  border-top: 1px solid #ea1538e6;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px auto;
+}
+.column {
+  flex: 1;
+  margin: 0 20px;
+}
+.column h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.navigation {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+}
+.name {
+  font-size: 1.05em;
+  margin-top: 30px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+.column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.column ul li {
+  margin-bottom: 5px;
+}
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+.column a:hover {
+  color: #ea1538;
+}
+.copyright-text {
+  margin: 0 20px;
+}
+
+.copyright-text p {
+  color: white;
+  text-decoration: none;
+}
