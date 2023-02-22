@@ -98,11 +98,12 @@ select option {
   transition: 0.4s;
   display: block;
   margin: 20px auto 20px;
-  border: 1px solid white;
+  border: 1px solid #bcbcbc;
 }
 
 .button:hover {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
 }
 input[type="text"],
 input[type="number"],
