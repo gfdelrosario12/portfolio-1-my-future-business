@@ -22,14 +22,22 @@ span {
   background-color: rgba(234, 21, 56, 0.9);
   padding: 50px;
   border-radius: 10px;
-  width: 15vw;
-  height: 23vh;
+  min-width: 10%;
+  min-height: 10%;
+  max-width: 15%;
+  max-height: 10%;
   margin: 5px 25px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .partners-page div {
+    flex-direction: column wrap;
+  }
 }
 
 .partners-page div:hover {
@@ -42,7 +50,7 @@ span {
 }
 .partners-page p {
   margin-top: 10px;
-  font-size: 2vh;
+  font-size: 1.2em;
 }
 .partners-page h1 {
   font-size: 1.5em;
