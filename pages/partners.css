@@ -1,5 +1,5 @@
 body {
-  background: url("../images/portfolio.jpg") no-repeat center/cover fixed;
+  background: url("../images/partners.jpg") no-repeat center/cover fixed;
 }
 
 .partners-title {
@@ -16,6 +16,11 @@ span {
   flex-flow: row wrap;
   gap: 20px 80px;
   justify-content: center;
+}
+
+.partners-page div {
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .partners-page div {
