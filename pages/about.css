@@ -11,18 +11,18 @@ body {
   display: none;
 }
 
-.about {
+.give-bg {
   background-color: rgba(234, 21, 56, 0.8);
   padding: 20px;
   border-radius: 10px;
-  height: 15vh;
-  min-height: 20vh;
+  height: 20vh;
+  min-height: 23vh;
   margin: 20px auto;
   padding: 30px;
   min-width: 3vw;
   max-width: 60vw;
 }
-.ceo {
+.people {
   background-color: rgba(234, 21, 56, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -36,16 +36,17 @@ body {
   justify-content: space-evenly;
   gap: 50px 30px;
 }
-.ceo img {
+.people img {
   width: 10vw;
   border-radius: 10%;
 }
-.ceo:hover,
-.about:hover {
+.people:hover,
+.give-bg:hover {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
 .flex-center {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
@@ -55,13 +56,17 @@ body {
   color: white;
   margin-top: 30px;
 }
-.ceo h1,
-.ceo p,
-.about {
+.people h1,
+.people p,
+.give-bg {
   text-align: justify;
   color: #ffffff;
   font-size: calc(0.5em + 0.8vw);
 }
-.ceo p {
+.people p {
   margin-top: 10px;
+}
+.give-bg ul {
+  text-align: center;
+  list-style-position: inside;
 }

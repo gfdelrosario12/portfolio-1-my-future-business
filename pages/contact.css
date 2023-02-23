@@ -6,21 +6,26 @@ a,
 a:visited {
   color: white;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contact-page-center {
   background-color: rgba(234, 21, 56, 0.8);
   padding: 30px;
   border-radius: 10px;
-  width: 50vw;
-  height: 60vh;
-  min-width: 30vw;
-  min-height: 60vh;
-  margin: 5px;
-  margin-top: 5%;
-  margin-left: 25%;
+  width: 60vw;
+  height: 50vh;
+  margin: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
-  margin-top: 30px;
-  font-size: 1em;
+  margin-top: 20px;
+  font-size: 1.7em;
   text-align: center;
 }
 .underline {

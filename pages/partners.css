@@ -19,24 +19,18 @@ span {
 }
 
 .partners-page div {
-  display: flex;
-  flex-flow: column wrap;
-}
-
-.partners-page div {
   background-color: rgba(234, 21, 56, 0.9);
   padding: 50px;
   border-radius: 10px;
-  min-width: 10%;
-  min-height: 10%;
-  max-width: 15%;
-  max-height: 10%;
-  margin: 5px 25px;
+  min-width: 10vh;
+  min-height: 10vw;
+  max-width: 15vw;
+  max-height: 100vh;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -54,14 +48,13 @@ span {
   text-align: center;
 }
 .partners-page p {
-  margin-top: 10px;
   font-size: 1.2em;
 }
 .partners-page h1 {
   font-size: 1.5em;
 }
 img {
-  margin: auto;
-  height: 8vh;
+  margin-bottom: 10px;
+  height: 10vh;
   width: 9vw;
 }
